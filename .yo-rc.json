@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.supurcell.homebuilder",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "homebuilder",
+    "packageName": "org.supurcell.homebuilder",
+    "packageFolder": "org/supurcell/homebuilder",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YWE4NDUzMDYyNmJiOTFlMWEyNDM0M2JlOTUyOGQ3MzFkOWE5OTVjZTVjMjJmODIxZjU3ZTlhYTAxMzc5MzMxYTg5NjU4ZGI3OGIzYTBiYjBkYjE1MGE2MDIzYjI4OTRmMGQwN2IwNzlkZTQyNTA4ZDU0YTA3MTU4ZWRkZTU5Mzk=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"]
+  }
+}

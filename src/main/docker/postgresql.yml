@@ -1,0 +1,11 @@
+version: '2'
+services:
+    homebuilder-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/homebuilder/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=homebuilder
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
