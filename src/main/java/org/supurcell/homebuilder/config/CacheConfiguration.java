@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(org.supurcell.homebuilder.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(org.supurcell.homebuilder.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(org.supurcell.homebuilder.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(org.supurcell.homebuilder.domain.Product.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
